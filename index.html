@@ -41,23 +41,23 @@
         <input
           type="checkbox"
           id="technology"
-          name="rateService"
+          name="interest"
           value="Technology"
         />
         Technology </label
       ><br />
       <label for="travel">
-        <input type="checkbox" id="travel" name="rateService" value="Travel" />
+        <input type="checkbox" id="travel" name="interest" value="Travel" />
         Travel </label
       ><br />
       <label for="food">
-        <input type="checkbox" id="food" name="rateService" value="Food" />
+        <input type="checkbox" id="food" name="interest" value="Food" />
         Food </label
       ><br /><br />
 
       <label>Overall Experience:</label>
       <select id="selectExperience">
-        <option value="Very Satisfied">Very Satisfied</option>
+        <option value="Very Satisfied" selected>Very Satisfied</option>
         <option value="Satisfied">Satisfied</option>
         <option value="Neutral">Neutral</option>
       </select>
@@ -65,5 +65,9 @@
 
       <button type="submit">Submit</button>
     </form>
+
+    <div id="feedbackData"></div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
